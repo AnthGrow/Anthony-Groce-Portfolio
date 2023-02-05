@@ -12,14 +12,14 @@ THEN I am presented with the developer's name, a recent photo or avatar, and lin
     Create
         Name - DONE
         Photo - DONE
-        Nav Section linking to:
+        Nav Section linking to: DONE
             About
             Portfolio/sample work
             contact info
 
 WHEN I click one of the links in the navigation
 THEN the UI scrolls to the corresponding section
-    Link Nav Section to 3 Sections loacted in body
+    Link Nav Section to 3 Sections loacted in body - DONE
 
 
 WHEN I click on the link to the section about their work
