@@ -1,5 +1,5 @@
 .background{
-background-image: linear-gradient(aqua 10%, black 90%);
+background-image: linear-gradient(aqua 10%, rgb(56, 62, 88) 90%);
 }
 
 .h1{
@@ -27,6 +27,7 @@ background-image: linear-gradient(aqua 10%, black 90%);
     color: black;
     text-align: left;
     margin: 10px 5px;
+    box-shadow: 2px 2px 5px black;
 }
 
 nav {
@@ -85,10 +86,13 @@ nav {
     
       main {
         max-width: 1200px;
+        flex-direction: column
       }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1px) {
+
+
     /* phones */
 }
 
