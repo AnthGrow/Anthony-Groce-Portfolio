@@ -2,12 +2,21 @@
     background-image: linear-gradient(aqua 10%, rgb(56, 62, 88) 90%);
 }
 
-.header{
+header{
+    
 
 }
 
+nav{
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+    font-size: 15px;
+    margin:auto;
+  }
+
 .h1{
-    font-size: 300%;
+    font-size: 350%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-shadow: 2px 2px 5px black;
@@ -23,9 +32,10 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    margin: auto;
+    
 
 }
+
 main {
     display: flex;
     align-items: flex start;
@@ -47,17 +57,13 @@ main {
     font-size: 25px;
     color: black;
     text-align: left;
-    margin: 10px 5px;
+    margin: 10px 100px;
     box-shadow: 2px 2px 5px black;
-    display: flex;
+    
     
 }
 
-.nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-  }
+
 
 .column {
     display: flex;
@@ -74,6 +80,7 @@ main {
 section {
 display: flex;
 order: 1;
+margin: 10px 50px;
     
 }
 
@@ -82,37 +89,7 @@ div {
     width: 100px;
 }
   
-  button {
-    width: 220px;
-    margin: 0 0.3%;
-    font-size: 200%;
-    color: #13293d;
-    background-color: #fff;
-    border: 2px solid #13293d;
-    border-radius: 8px;
-    box-shadow: 5px 5px 5px black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  /* The user's cursor is positioned over the element */
-  button:hover {
-    background-color: #fff;
-    color:#41f2ae;
-  }
-  
-  /* The user is actively pressing down on the element */
-  button:active {
-    font-size: 180%;
-    box-shadow: 2 2 10px #000 inset;
-    background-color: aquamarine;
-  }
-  
-  /* The element is currently in focus, either by tabbing to or clicking on it */
-  button:focus {
-    outline: red;
-    border: 2px solid coral
-  }
-
+ 
   .card{
   width: 250px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -124,6 +101,42 @@ div {
     background-color: gray;
 
 }
+
+button {
+    width: 190px;
+    margin: 20 5 20 20;
+    font-size: 200%;
+    color: #13293d;
+    background-color: #fff;
+    border: 2px solid #13293d;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    
+  }
+  
+  /* The user's cursor is positioned over the element */
+  button:hover {
+    background-color: #fff;
+    color:#41f2ae;
+  }
+  
+  /* The user is actively pressing down on the element */
+  button:active {
+    font-size: 180%;
+    box-shadow: 2 2 10px rgb(1, 169, 248) inset;
+    background-color: aquamarine;
+  }
+  
+  /* The element is currently in focus, either by tabbing to or clicking on it */
+  button:focus {
+    outline: rgb(81, 0, 255);
+    color:rgb(81, 0, 255)
+    border: 2px solid coral
+  }
 
   
   
