@@ -2,18 +2,38 @@
     background-image: linear-gradient(aqua 10%, rgb(56, 62, 88) 90%);
 }
 
-header{
+header {
     
 
 }
 
-nav{
+nav {
     display: flex;
     justify-content: left;
     margin-top: 5%;
     font-size: 15px;
     margin:auto;
   }
+
+section {
+    display: flex;
+    order: 1;
+    margin: 10px 50px;
+        
+    }
+
+div {
+    display: 
+    width: 100px;
+}
+
+main {
+    display: flex;
+    align-items: flex start;
+    flex-direction: row;
+    justify-content: left;
+}
+
 
 .h1{
     font-size: 350%;
@@ -36,12 +56,6 @@ nav{
 
 }
 
-main {
-    display: flex;
-    align-items: flex start;
-    flex-direction: row;
-    justify-content: left;
-}
 
 .Photo{
    border-radius: 10px;
@@ -49,6 +63,7 @@ main {
    outline: solid black;
 
 }
+
 .box{
     width: 50vw;
     height: 40vh;
@@ -58,9 +73,7 @@ main {
     color: black;
     text-align: left;
     margin: 10px 100px;
-    box-shadow: 2px 2px 5px black;
-    
-    
+    box-shadow: 2px 2px 5px black;  
 }
 
 
@@ -77,17 +90,9 @@ main {
 
 }
 
-section {
-display: flex;
-order: 1;
-margin: 10px 50px;
-    
-}
 
-div {
-    display: 
-    width: 100px;
-}
+
+
   
  
   .card{
