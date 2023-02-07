@@ -1,15 +1,25 @@
 .background{
-    background-image: linear-gradient(aqua 10%, rgb(56, 62, 88) 90%);
+    background-image: linear-gradient(rgb(185, 251, 251) 10%, rgb(56, 62, 88) 90%);
 }
 
 header {
-    
+  height: 500px;
+  background-image: url(./1649206943094.jpeg);
+  background-size: cover;
+  background-position: center; 
 
 }
 
+header .header-content (
+
+)
+
+
+
 nav {
     display: flex;
-    justify-content: left;
+    align-items: center;
+    justify-content: ;
     margin-top: 5%;
     font-size: 15px;
     margin:auto;
@@ -17,21 +27,25 @@ nav {
 
 section {
     display: flex;
-    order: 1;
-    margin: 10px 50px;
+    flex-wrap: wrap;
         
     }
 
 div {
-    display: 
-    width: 100px;
+    /* display: 
+    width: 100px; */
 }
 
 main {
+    
+
+}
+
+.main-content{
     display: flex;
-    align-items: flex start;
     flex-direction: row;
-    justify-content: left;
+    align-items: flex start;
+    justify-content: left; 
 }
 
 
@@ -56,6 +70,13 @@ main {
 
 }
 
+.sidebar{
+    flex-basis: 20px;
+    background-color: ;
+    padding: 20px;
+    
+}
+
 
 .Photo{
    border-radius: 10px;
@@ -74,6 +95,7 @@ main {
     text-align: left;
     margin: 10px 100px;
     box-shadow: 2px 2px 5px black;  
+    flex: 1;
 }
 
 
@@ -117,9 +139,7 @@ button {
     border-radius: 8px;
     box-shadow: 5px 5px 5px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
+    
     
   }
   
