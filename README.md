@@ -1,43 +1,56 @@
 # Anthony-Groce-Portfolio
+## Introduction:
+
 This is my portfolio initially started to satisfy our 2nd Challenge in the Northwestern Coding Bootcamp.  I will be adding to this portfolio as I progress through the bootcamp.
 
-ACCEPTANCE CRITERIA:
+## Getting Started:
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-    Create Git Repository and link - DONE
+This portfolio can be viewed in any browser or any device that can view a webpage.  It should be flexible enough to be viewed on mobile devices, but I have my doubts currently.  I will continue to ensure this is accessible on all screens.
 
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+## Features:
 
-    Create
-        Name - DONE
-        Photo - DONE
-        Nav Section linking to: DONE
-            About
-            Portfolio/sample work
-            contact info
+### Header - 
+    The header contains a background image, a portrait of myself, my name as the title, and 3 buttons that link to locations in the webpage - About Me, Portfolio, and Contact.
 
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-    Link Nav Section to 3 Sections loacted in body - DONE
+### The Body - 
+    In the body, I attempted to use flex to organize my boxes.  I was challenged thoroughly by the example provided which showed a "side-bar" next to the main content.  I'm happy that I somewhat achieve this, however, I have made a mess of my parent-child flex relationships and have yet to fix that.  
+
+### The Footer -
+    The footer is a basic, single color bar with contact information.  These will be clickable links when finished.
+
+### The Background -
+    The background is a gradient from a light-aqua at the top, fading into a navy-dark-gray on the bottom.
+
+## Screenshots:
+![This is a screenshot of the webpage](./assets/Screen%20Shot%202023-02-06%20at%2011.56.02%20PM.png)
+
+## Contributing:
+    If you are interested in helping me learn about HTML,CSS or coding in general please reach out.
+
+## License:
+
+The MIT License (MIT)
+
+Copyright (c) [2023] [copyright holders]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-
-    Create an Application Section
-
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-
-    Ensure Application Section has a photo that is larger than the others
-
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-
-    Ensure the application section image links to a different git repository corresponding to the application presented
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-
-    Add a media query to the bottom to ensure scalability
+## Contact:
+anthonygroce@gmail.com
